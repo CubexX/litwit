@@ -6,6 +6,6 @@ if (!class_exists('Plugin')) {
 
 class PluginLitwit extends Plugin {
     public function Init() {
-        //$this->Viewer_AppendStyle(Plugin::GetTemplatePath(__CLASS__)."css/style.css");
+        $this->Viewer_AppendStyle(Plugin::GetTemplatePath(__CLASS__)."css/style.css");
     }
 }
